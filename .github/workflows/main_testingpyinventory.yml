@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'testingpyinventory'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_726D212F88CC4CC18B94C913FA80ADE1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1044F27E1F2247EFB3882C7876B9CCB8 }}
