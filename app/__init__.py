@@ -10,6 +10,7 @@ app_env = os.environ.get("FLASK_ENV")
 
 if app_env is None:
     app_env = "Development"
+    print(app_env)
 
 def create_app(config_env=app_env):
     app = Flask(__name__)
